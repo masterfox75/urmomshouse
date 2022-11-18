@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#game {
+    display: flex;
+    background-color: rgb(32,32,32);
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    background-color: rgb(26,26,255);
+    border-left: solid rgb(19,19,160) 10px;
+    border-top: solid rgb(37, 52, 216) 10px;
+    border-bottom: solid rgb(11,11,91) 10px;
+    border-right: solid rgb(29,10,160) 10px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.first-button {
+    background-color:  rgb(23, 219, 203);
+    border: none;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 1);
+    margin: 5px;
+}
+
+.second-button {
+    background-color:  rgb(12, 163, 223);
+    border: none;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 1);
+    margin: 5px;
+}
+
+.genre-title {
+    background-color: rgb(26,26,255);
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+        border-left: solid rgb(19,19,160) 10px;
+    border-top: solid rgb(37, 52, 216) 10px;
+    border-bottom: solid rgb(11,11,91) 10px;
+    border-right: solid rgb(29,10,160) 10px;
+}
+.correct-answer {
+    background-color: green;
+}
+.wrong-answer {
+    background-color: red;
+}
